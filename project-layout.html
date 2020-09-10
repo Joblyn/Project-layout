@@ -8,29 +8,58 @@
 </head>
 <body>
     <div class="container">
-        <nav class="web head sticky"> 
-            <ul class="head-items"> 
-                <li class="item-1"><a href="About.html">About</a></li>
-                <li class="item-2"><a href="Product.html">Products</a></li>
-                <li class="item-3"><a href="Team.html">Our Team</a></li>
-                <li class="item-4"><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="web cover"><img class="photo" src="img/undraw.png"></div>
-        <div class=" web projectgrid">
-            <div class="projects">
-                <div class="proj 1"><img src="img/data_storage_2_2.png"></div>
-                <div class="proj 2"><img src="img/desktop_analytics_2.png"></div>
-                <div class="proj 3"><img src="img/files_2.png"></div>
-                <div class="proj 4"><img src="img/files_2.png"></div>
-                <div class="proj 5"><img src="img/monitor_coding_2.png"></div>
-                <div class="proj 6"><img src="img/monitor_settings_2.png"></div>
-                <div class="proj 7"><img src="img/server_2_2.png"></div>
-                <div class="proj 8"><img src="img/server_3.png"></div>
-                <div class="proj 9"><img src="img/server_safe_2.png"></div>
+        <header id="header">
+            <nav id="nav-bar" class="web head sticky">
+                <div>
+                    <a class="nav-link" href="#"><img id="header-img" src="home.png"></a>
+                </div>
+                <ul class="head-items"> 
+                    <li class="item-1 nav-link"><a href="#">About</a></li>
+                    <li class="item-2 nav-link"><a href="#">Products</a></li>
+                    <li class="item-3 nav-link"><a href="#">Our Team</a></li>
+                    <li class="item-4 nav-link"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Job's corporations</h1>
+            <h3>Here at job's corpoarations, we serve our customers right</h3>
+            <div class="web cover"><img class="photo" src="img/undraw.png"></div>
+            <div class=" web projectgrid">
+                <div class="projects">
+                    <div class="proj 1"><img src="img/data_storage_2_2.png"></div>
+                    <div class="proj 2"><img src="img/desktop_analytics_2.png"></div>
+                    <div class="proj 3"><img src="img/files_2.png"></div>
+                    <div class="proj 4"><img src="img/files_2.png"></div>
+                    <div class="proj 5"><img src="img/monitor_coding_2.png"></div>
+                    <div class="proj 6"><img src="img/monitor_settings_2.png"></div>
+                    <div class="proj 7"><img src="img/server_2_2.png"></div>
+                    <div class="proj 8"><img src="img/server_3.png"></div>
+                    <div class="proj 9"><img src="img/server_safe_2.png"></div>
+                </div>   
             </div>
-        </div>
-        <footer class="web foot">Footer</footer>
+            <div id="form-vid" style="background-color: black;margin-top: -20px; padding: 10px 30px 20px 30px; display: flex; flex-direction: row;">
+                <span id="form">
+                    <p>Subscibe to our Newsletter and stay updated:</p>
+                    <form action="https://www.freecodecamp.com/email-submit">
+                        <div><label for="name">Name</label>
+                        <input type="text" id="name" required></div> <br>
+                        <div><label for="email" >Email</label>
+                        <input type="email" id="email" required></div><br>
+                        <button style="color:black;" type="submit" id="submit">Submit</button>        
+                    </form>
+                </span> 
+                <span id="vid">
+                    <video width="320" height="240" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                    </video>
+                </span>
+            </div>
+        </main>     
+        <footer class="web foot"></footer>
     </div>
+
+    <scrip rel="srcipt" type="text/js" href=""></scrip>
 </body>
 </html>
